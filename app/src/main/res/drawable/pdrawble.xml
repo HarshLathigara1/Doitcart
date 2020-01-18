@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            >
+            <solid android:color="#2874f0"/>
+        </shape>
+    </item>
+
+    <item>
+        <rotate android:fromDegrees="270"
+            android:pivotY="50%"
+            android:pivotX="505%"
+            android:toDegrees="270"
+            >
+            <shape android:shape="ring"
+                android:useLevel="true"
+                >
+                <solid android:color="@android:color/white"></solid>
+            </shape>
+
+        </rotate>
+    </item>
+</layer-list>
